@@ -63,7 +63,7 @@ AddEventHandler('playerDropped', function(reason)
             connected[license] = nil
             print(GetPlayerName(source)..' [ID '..source..'] deleted from connected-table')
         else 
-            print(GetPlayerName(source)..' [ID '..source..'] couln\'t be found in connected-table')
+            print(GetPlayerName(source)..' [ID '..source..'] couldn\'t be found in connected-table')
         end
     end
 end)
